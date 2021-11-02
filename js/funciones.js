@@ -101,7 +101,7 @@ function guardarInformacionQuadbikes(){
         dataType: 'JSON',
         data: JSON.stringify(var3),
         
-        url:"http://129.151.112.4:8080/api/Bike/save",
+        url:"http://129.151.112.4:8080/api/Quadbike/save",
        
         
         success:function(response) {
